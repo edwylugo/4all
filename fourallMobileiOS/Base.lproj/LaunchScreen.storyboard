@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CELULAR FINAL" translatesAutoresizingMaskIntoConstraints="NO" id="d7W-Ij-Ee6">
+                                <rect key="frame" x="0.0" y="243" width="375" height="574"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="574" id="9g0-To-JrI"/>
+                                    <constraint firstAttribute="width" constant="375" id="PcS-mv-wj6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fourall" translatesAutoresizingMaskIntoConstraints="NO" id="q1p-qd-nkh">
+                                <rect key="frame" x="0.0" y="50" width="375" height="185"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d7W-Ij-Ee6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="44e-7a-wFD"/>
+                            <constraint firstItem="q1p-qd-nkh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aac-tg-QSS"/>
+                            <constraint firstItem="d7W-Ij-Ee6" firstAttribute="top" secondItem="q1p-qd-nkh" secondAttribute="bottom" constant="8" id="BDd-Xk-NdZ"/>
+                            <constraint firstItem="q1p-qd-nkh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QsD-e1-8zA"/>
+                            <constraint firstItem="q1p-qd-nkh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Wny-YM-pE9"/>
+                            <constraint firstItem="d7W-Ij-Ee6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f4z-p4-lOO"/>
+                            <constraint firstAttribute="bottom" secondItem="d7W-Ij-Ee6" secondAttribute="bottom" constant="-150" id="oWd-Dt-oJs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CELULAR FINAL" width="1240" height="1754"/>
+        <image name="logo_fourall" width="585" height="585"/>
+    </resources>
+</document>
